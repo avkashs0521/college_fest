@@ -135,7 +135,8 @@ export default function Index() {
     },
   ];
 
-  const currentEvents = scheduleEvents[activeDay as keyof typeof scheduleEvents];
+  const currentEvents =
+    scheduleEvents[activeDay as keyof typeof scheduleEvents];
 
   const getCategoryColor = (category: string) => {
     const colors: Record<string, string> = {
@@ -164,7 +165,9 @@ export default function Index() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 border border-accent/30 text-foreground mb-6">
               <Sparkles size={16} className="text-accent" />
-              <span className="text-sm font-semibold">Welcome to the Experience</span>
+              <span className="text-sm font-semibold">
+                Welcome to the Experience
+              </span>
             </div>
 
             {/* Main Heading */}
@@ -177,7 +180,9 @@ export default function Index() {
 
             {/* Description */}
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              The biggest cultural & tech celebration of the year. Experience unforgettable moments, discover new talents, and connect with 5,000+ students from across the region.
+              The biggest cultural & tech celebration of the year. Experience
+              unforgettable moments, discover new talents, and connect with
+              5,000+ students from across the region.
             </p>
 
             {/* Event Details */}
@@ -394,9 +399,7 @@ export default function Index() {
                 <div className="w-12 h-12 rounded-lg bg-secondary/20 flex items-center justify-center mx-auto mb-4">
                   <Users className="text-secondary" size={24} />
                 </div>
-                <h3 className="font-bold text-foreground mb-2">
-                  VIP Pass
-                </h3>
+                <h3 className="font-bold text-foreground mb-2">VIP Pass</h3>
                 <p className="text-3xl font-bold text-secondary mb-2">$15</p>
                 <p className="text-sm text-muted-foreground">
                   Front row seating & exclusive meet & greet
@@ -407,9 +410,7 @@ export default function Index() {
                 <div className="w-12 h-12 rounded-lg bg-accent/20 flex items-center justify-center mx-auto mb-4">
                   <Calendar className="text-accent" size={24} />
                 </div>
-                <h3 className="font-bold text-foreground mb-2">
-                  3-Day Pass
-                </h3>
+                <h3 className="font-bold text-foreground mb-2">3-Day Pass</h3>
                 <p className="text-3xl font-bold text-accent mb-2">$25</p>
                 <p className="text-sm text-muted-foreground">
                   All-access for the entire fest

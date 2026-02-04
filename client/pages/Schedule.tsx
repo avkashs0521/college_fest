@@ -10,15 +10,20 @@ export default function Schedule() {
               Full Schedule
             </h1>
             <p className="text-lg text-muted-foreground mb-12">
-              Get detailed information about every event happening during CollegeFest 2026
+              Get detailed information about every event happening during
+              CollegeFest 2026
             </p>
-            
+
             <div className="bg-card border border-border rounded-lg p-12">
               <p className="text-muted-foreground mb-4">
                 This page is being prepared with detailed schedule information.
               </p>
               <p className="text-sm text-muted-foreground">
-                For now, check the full timeline on the <a href="/" className="text-primary hover:underline">homepage</a>.
+                For now, check the full timeline on the{" "}
+                <a href="/" className="text-primary hover:underline">
+                  homepage
+                </a>
+                .
               </p>
             </div>
           </div>

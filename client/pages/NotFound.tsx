@@ -25,7 +25,8 @@ const NotFound = () => {
               Oops! Page not found
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              The page you're looking for doesn't exist. It might be coming soon or there's a typo in the URL.
+              The page you're looking for doesn't exist. It might be coming soon
+              or there's a typo in the URL.
             </p>
             <Link
               to="/"

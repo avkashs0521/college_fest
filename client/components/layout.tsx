@@ -25,7 +25,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <span className="text-white font-bold text-lg">CF</span>
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-xl font-bold text-foreground">CollegeFest</h1>
+                <h1 className="text-xl font-bold text-foreground">
+                  CollegeFest
+                </h1>
                 <p className="text-xs text-muted-foreground">2026</p>
               </div>
             </Link>
@@ -98,7 +100,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h3 className="text-2xl font-bold mb-2">CollegeFest</h3>
               <p className="text-gray-300 text-sm">
-                The biggest cultural & tech celebration of the year. Join us for unforgettable experiences!
+                The biggest cultural & tech celebration of the year. Join us for
+                unforgettable experiences!
               </p>
             </div>
 
@@ -112,17 +115,26 @@ export function Layout({ children }: { children: React.ReactNode }) {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/schedule" className="hover:text-accent transition-colors">
+                  <Link
+                    to="/schedule"
+                    className="hover:text-accent transition-colors"
+                  >
                     Schedule
                   </Link>
                 </li>
                 <li>
-                  <Link to="/speakers" className="hover:text-accent transition-colors">
+                  <Link
+                    to="/speakers"
+                    className="hover:text-accent transition-colors"
+                  >
                     Speakers
                   </Link>
                 </li>
                 <li>
-                  <Link to="/register" className="hover:text-accent transition-colors">
+                  <Link
+                    to="/register"
+                    className="hover:text-accent transition-colors"
+                  >
                     Register
                   </Link>
                 </li>

@@ -10,15 +10,21 @@ export default function Speakers() {
               Our Speakers & Performers
             </h1>
             <p className="text-lg text-muted-foreground mb-12">
-              Meet the brilliant minds and talented artists performing at CollegeFest 2026
+              Meet the brilliant minds and talented artists performing at
+              CollegeFest 2026
             </p>
-            
+
             <div className="bg-card border border-border rounded-lg p-12">
               <p className="text-muted-foreground mb-4">
-                This page is being prepared with detailed speaker profiles and bios.
+                This page is being prepared with detailed speaker profiles and
+                bios.
               </p>
               <p className="text-sm text-muted-foreground">
-                Check out the speakers section on the <a href="/" className="text-primary hover:underline">homepage</a> to see who's performing.
+                Check out the speakers section on the{" "}
+                <a href="/" className="text-primary hover:underline">
+                  homepage
+                </a>{" "}
+                to see who's performing.
               </p>
             </div>
           </div>

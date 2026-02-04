@@ -91,7 +91,10 @@ export default function Register() {
                     id="terms"
                     className="w-4 h-4 rounded border-border"
                   />
-                  <label htmlFor="terms" className="text-sm text-muted-foreground">
+                  <label
+                    htmlFor="terms"
+                    className="text-sm text-muted-foreground"
+                  >
                     I agree to the terms and conditions
                   </label>
                 </div>
